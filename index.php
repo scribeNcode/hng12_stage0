@@ -8,6 +8,12 @@
 
 $current_date = gmdate("Y-m-d\TH:i:s\z");
 
-echo $current_date
+
+// My response array
+$response = [
+  "email" => "deyeye99@gmail.com",
+  "current_datetime" => $current_date,
+  "github_url" => "https://github.com/scribeNcode/hng12_stage0"
+]
 
 ?>
