@@ -6,7 +6,7 @@ header("Content-Type: application/json");
 
 //GET CURRENT DATE
 
-$current_date = gmdate("Y-m-d\TH:i:s\z");
+$current_date = gmdate("Y-m-d\TH:i:s\Z");
 
 
 // My response array
